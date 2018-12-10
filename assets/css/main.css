@@ -938,6 +938,12 @@ input, select, textarea {
 
 /* Image */
 
+    .logo {
+        width: 168px;
+        height: 60px;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
 	.image {
 		position: relative;
 		display: inline-block;
@@ -2254,6 +2260,13 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+    p.our-team {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
 /* Contact */
 
 	#contact {
@@ -2272,6 +2285,9 @@ input, select, textarea {
 			transform: translateY(0);
 			position: relative;
 		}
+        .email-text {
+            margin-left: 30px;
+        }
 
 		#contact.inactive .box {
 			-moz-transform: translateY(100%);
